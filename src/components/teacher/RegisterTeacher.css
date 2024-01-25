@@ -1,0 +1,88 @@
+/* general style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    outline:none;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+/*  */
+.Wrapper{
+    margin: 20px auto;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 80%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #F0F4FB;
+    border-radius: 5px;
+    padding: 10px;
+}
+.header .logo{
+    font-weight: 500;
+    font-size: 30px;
+}
+.right-side{
+    margin-left: 150px;
+}
+.right-side button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    color:#F0F4FB ;
+    background-color: #4154F1;
+    border: none;
+    border-radius: 5px;
+}
+
+.liepaja-logo{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.input-fields-wrapper{
+    max-width: 80%;
+    margin: 60px auto;
+    padding: 10px;
+}
+.input-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-name .firstname,.lastname{
+    width: 40%;
+}
+.email input,.password input{
+    width: 100%;
+}
+
+.faculty select{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register .register-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #4154F1;
+    border: none;
+    border-radius: 5px;
+    color:#F0F4FB ;
+}
