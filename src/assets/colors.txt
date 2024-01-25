@@ -1,0 +1,11 @@
+#012970 regular blue
+#198754 green
+#4154F1 sky blue
+#DC3545 red
+#F0F4FB white
+
+
+
+
+SELECT teachers.name,teachers.surname from teachers INNER JOIN classes where teachers.teacher_id = classes.course_id
+
