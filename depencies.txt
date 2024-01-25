@@ -1,0 +1,62 @@
+all needed dependancies:
+bcrypt for hashing for password
+cookie-parser for using cookies
+cors
+date-fns
+dotenv
+express
+express-async-handler
+jsonwebtoken
+mysql
+uuid
+nodemon
+
+ALL needed routes in the project
+admin routes:
+check box on frontend to use only these routes
+/admin/login
+/admin/logout
+/admin/dashboard
+/admin/users manage user accounts and roles
+
+common routes:
+/login
+/register
+/users/lecturers get all lecturers
+/users/students get all the students
+/dashboard
+/messages
+/calendar
+/help
+/logout
+
+check box in frontend to
+to see if it is a teacher or student
+
+student routes:
+get /student/infos
+with the students table we can just create
+a column role and fill it by default
+//post /student/register
+//post /student/login
+//post /student/logout
+//put /student/profile 
+
+lecturer routes:
+with the lecturer table we can just create
+a column role and fill it by default
+/users get all users lecturer and student
+/lecturer/infos
+/lecturer/register
+/lecturer/login
+/lecturer/logout
+/lecturer/profile || /user/profile (for all student and lecturer)
+
+school staff
+/staff/dashboard
+/staff/reports
+
+bcrypt
+hashing
+const password = '123456'
+const hash = bcrypt.hash(password,10)
