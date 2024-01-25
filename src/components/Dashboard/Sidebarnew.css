@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    padding: 20px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    /* background-color: #4154F1; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon:hover{
+    background-color: #4154F1;
+    color: #F0F4FB;
+}
+.link{
+    color: black;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    text-decoration: none;
+}

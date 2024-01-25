@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-class{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.title{
+    text-align: center;
+    
+
+}
+.heading{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.content{
+    display: flex;
+}
+.desc,.teach,.title1{
+    text-wrap: wrap;
+}
+.teach{
+    max-width: 60px;
+    text-overflow: clip;
+
+}
+.feat{
+    display: flex;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.btn:hover{
+    transform: scale(0.9);
+}
+
+.edit{
+    background-color: #198754;
+}
+
+.delete{
+    background-color: #DC3545;
+
+}
+.divi{
+    border: solid 1px blue;
+    width: 60px;
+}
+.common{
+    border: solid 1px blue;
+    width: 60px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: center;
+}

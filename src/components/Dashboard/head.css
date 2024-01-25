@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F0F4FB;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4154F1;
+    text-align: center;
+    display: flex;
+    color: #F0F4FB;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    text-transform: uppercase;
+}
+.link1{
+    text-decoration: none;
+    cursor: pointer;
+    color: #4154F1;
+    font-size: 30px;
+}
+.link1:hover{
+    transform: scale(0.9);
+}
