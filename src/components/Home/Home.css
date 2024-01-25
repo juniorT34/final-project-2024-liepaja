@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 10px;
+    color:#F0F4FB ;
+    border: none;
+    border-radius: 5px;
+}
+.Wrapper{
+    margin: 20px auto;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 80%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #F0F4FB;
+    border-radius: 5px;
+    padding: 10px;
+}
+.header .logo{
+    font-weight: 500;
+    font-size: 30px;
+}
+.right-side{
+    margin-left: 150px;
+}
+.right-side button{
+    margin-left: 10px;
+    
+}
+button.login-btn{
+    background-color: #198754 ;
+}
+
+button.register-btn{
+    background-color: #4154F1 ;
+} 
+.liepaja-logo{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.title{
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+    font-size: 25px;
+}
+.button{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+button.login-btn:hover{
+    background-color: #5bc292;
+    font-size: 16px;
+    color: black;
+}
+
+button.register-btn:hover{
+    background-color: #616ff3;
+    font-size: 16px;
+    color: black;
+}
+
