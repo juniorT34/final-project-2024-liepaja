@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Wrapper{
+    margin: 20px auto;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 80%;
+}
+.logo{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.action{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+}
+.options button{
+    padding: 10px 50px;
+    color:#F0F4FB ;
+    background-color: #4154F1;
+    border: none;
+    border-radius: 5px;
+}
+.options button:hover{
+    background-color: #616ff3;
+    font-size: 16px;
+    color: black;
+}
