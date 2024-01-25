@@ -1,0 +1,19 @@
+2023/11/10	12:22:29		Error: Cannot set headers after they are sent to the client		/student/infos		undefined
+2023/11/14	22:19:42		TypeError: Assignment to constant variable.		/admin/login		undefined
+2023/11/14	22:20:31		TypeError: Assignment to constant variable.		/admin/login		undefined
+2023/11/14	22:48:12		Error: Cannot set headers after they are sent to the client		/admin/register		undefined
+2023/11/14	22:52:56		ReferenceError: result is not defined		/admin/register		undefined
+2023/11/14	22:58:54		Error: data and salt arguments required		/student/register?email=j@test.com&name=junior&surname=toure&password=junior&faculty=CS&student_id=1254P		undefined
+2023/11/14	23:01:28		Error: data and salt arguments required		/student/register?email=j@test.com&name=junior&surname=toure&password=junior&faculty=CS&student_id=1254P		undefined
+2023/11/14	23:04:12		TypeError: Assignment to constant variable.		/admin/register		undefined
+2023/11/14	23:13:36		Error: data and salt arguments required		/student/register?email=j@test.com&name=junior&surname=toure&password=junior		undefined
+2023/11/14	23:14:42		Error: data and salt arguments required		/student/register?email=j@test.com&name=junior&surname=toure&password=junior		undefined
+2023/11/14	23:16:07		Error: data and salt arguments required		/student/register?email=j@test.com&surname=toure&password=junior		undefined
+2023/11/14	23:17:01		Error: data and salt arguments required		/student/register?id=1&email=j@test.com&surname=toure&password=junior		undefined
+2023/11/14	23:17:28		Error: data and salt arguments required		/student/register?id=1&email=j@test.com&surname=toure&password=junior		undefined
+2023/11/14	23:17:47		Error: data and salt arguments required		/student/register?email=j@test.com&surname=toure&password=junior		undefined
+2023/11/15	03:45:18		Error: data and salt arguments required		/admin/users		undefined
+2024/01/17	01:43:12		Error: Cannot set headers after they are sent to the client		/admin/login		undefined
+2024/01/17	02:39:47		Error: Cannot set headers after they are sent to the client		/lecturer/login?email=tomsons@liepu.com&password=tomson		undefined
+2024/01/17	02:41:34		Error: Cannot set headers after they are sent to the client		/lecturer/login?email=tomsons@liepu.com&password=tomson		undefined
+2024/01/24	10:52:11		Error: Cannot set headers after they are sent to the client		/admin/student/2		undefined
